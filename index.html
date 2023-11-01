@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+	    <div class="header">
+			<title>Комендант 221-362 web6</title>
+			<div class="header-item" id="title-item">
+				<div class="nav-title"><h1>Основы JavaScript</h1></div>
+			</div>
+			<meta charset="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1" />
+			<link rel="stylesheet" href="index.css"/>
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+			<script type="text/javascript" src="functions.js"></script>
+		</div>
+	</head>
+	<body>
+	    <div class="functions">
+			<div class="function">
+				<div class="function-title">
+					<h3><b>Возведение в степень</b></h3>
+				</div>
+				<div class="function-body">
+					<div class="input-block">
+						<input type="text" id="pow-a" placeholder="Число, которое нужно возвести в степень" size="20">
+					</div>
+					<div class="input-block">
+						<input type="text" id="pow-b" placeholder="Степень" size="20">
+					</div>
+					<button class="function-button" onclick="pow();">Вычислить</button>
+				</div>
+				<div class="function-result" id="pow-result">
+				</div>
+			</div>
+			<div class="function">
+				<div class="function-title">
+					<h3><b>Нахождение НОД</b></h3>
+				</div>
+				<div class="function-body">
+					<div class="input-block">
+						<input type="text" id="gcd-a" placeholder="Первое число" size="20">
+					</div>
+					<div class="input-block">
+						<input type="text" id="gcd-b" placeholder="Второе число" size="20">
+					</div>
+					<button class="function-button" onclick="gcd();">Найти</button>
+				</div>
+				<div class="function-result" id="gcd-result">
+				</div>
+			</div>
+			<div class="function">
+				<div class="function-title">
+					<h3><b>Наименьшая цифра</b></h3>
+				</div>
+				<div class="function-body">
+					<div class="input-block">
+						<input type="text" id="minDigit" placeholder="Число" size="40">
+					</div>
+					<button class="function-button" onclick="minDigit();">Найти</button>
+				</div>
+				<div class="function-result" id="minDigit-result">
+				</div>
+			</div>
+			<div class="function">
+				<div class="function-title">
+					<h3><b>Pluralization</b></h3>
+				</div>
+				<div class="function-body">
+					<div class="input-block">
+						<input type="text" id="pluralizeRecords" placeholder="Число" size="40">
+					</div>
+					<button class="function-button" onclick="pluralizeRecords();">Получить строку</button>
+				</div>
+				<div class="function-result" id="pluralizeRecords-result">
+				</div>
+			</div>
+			<div class="function">
+				<div class="function-title">
+					<h3><b>Числа Фибоначчи</b></h3>
+				</div>
+				<div class="function-body">
+					<div class="input-block">
+						<input type="text" id="fibb" placeholder="Число" size="40">
+					</div>
+					<button class="function-button" onclick="fibb();">Вычислить</button>
+				</div>
+				<div class="function-result" id="fibb-result">
+				</div>
+			</div>
+		</div>
+	</body>
+	<footer>
+	    <div class="footer-container">
+		    <div class="footer-item">
+			    <h3>О сайте</h3>
+				<a>Данная страница является результатом шестой лабораторной работой (Веб-технологии)</a>		
+			</div>
+			<div class="footer-item">
+			    <h3>Контакты</h3>
+			    <ul class="footer-ul">
+				    <li><a href="">maks.komendant@yandex.ru</a></li>
+					<li><a>+79259257991</a>	</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</html>
